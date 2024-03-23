@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.rightwrapper{
+    height: 100vh;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+}
+.one{
+    height: 80px;
+    background-color: #39AEBC;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* padding: 30px; */
+
+}
+.icon{
+    height: 20px;
+    padding-top: 2px;
+    padding-right: 15px;
+    padding-left: 17px;
+    color: white;
+
+}
+
+.one h1{
+    color: white;
+    padding-top: 3px;
+    font-size: 20px;
+}
+
+.two{
+    /* height: 80vh; */
+    flex:1;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    /* padding-left: 30px; */
+}
+
+.lbl{
+    font-size: 17px;
+    padding-top: 25px;
+   padding-bottom: 20px;
+   
+}
+
+.inpt{
+    height: 40px;
+    width: 300px;
+    padding-left: 30px;
+    border: 1px solid black;
+}
+
+.lbl2{
+    font-size: 17px;
+
+}
+
+.three{
+    background-color: rgb(204, 204, 204);
+    display: flex;
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.btn0{
+    height: 40px;
+    width: 150px;
+    background-color: #41B494;
+    color: white;
+    border: none;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.btn1{
+    height: 39px;
+    width: 80px;
+    color: red;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.link-button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    color: #39AEBC;
+    text-decoration: underline;
+    cursor: pointer;
+  }
